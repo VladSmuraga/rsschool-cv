@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="icon" href="https://placehold.co/32x32.png" type="image/png">
+  <link rel="stylesheet" href="portfolio/styles.css">
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="container">
+      <a class="logo" href="#top">VL</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#price">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container">
+        <h1>Frontend Developer</h1>
+        <p class="lead">Semantic, responsive, pixel-accurate web layouts.</p>
+        <a class="btn primary" href="#portfolio">View Work</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>Short bio aligned to Figma text area.</p>
+        <img src="https://placehold.co/800x450" alt="About image" class="media">
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="grid">
+          <article class="card">
+            <img src="https://placehold.co/600x400" alt="Project 1 preview">
+            <h3>Project 1</h3>
+          </article>
+          <article class="card">
+            <img src="https://placehold.co/600x400" alt="Project 2 preview">
+            <h3>Project 2</h3>
+          </article>
+          <article class="card">
+            <img src="https://placehold.co/600x400" alt="Project 3 preview">
+            <h3>Project 3</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="price" id="price">
+      <div class="container">
+        <h2>Packages & Pricing</h2>
+        <div class="grid">
+          <article class="package">
+            <h3>Starter</h3>
+            <p>Basic landing + responsive.</p>
+            <a class="btn outline" href="#contact">Choose</a>
+          </article>
+          <article class="package">
+            <h3>Pro</h3>
+            <p>Multi-section, interactivity.</p>
+            <a class="btn outline" href="#contact">Choose</a>
+          </article>
+          <article class="package">
+            <h3>Ultimate</h3>
+            <p>Complete site, deployment.</p>
+            <a class="btn outline" href="#contact">Choose</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <div class="accordion">
+          <button class="acc-header">
+            <span class="acc-title">What’s included?</span>
+            <span class="acc-plus">+</span>
+          </button>
+          <div class="acc-content"><p>Scope per package, timeline, deliverables.</p></div>
+
+          <button class="acc-header">
+            <span class="acc-title">How long?</span>
+            <span class="acc-plus">+</span>
+          </button>
+          <div class="acc-content"><p>Typical 3–7 days.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container">
+      <p>&copy; 2025 Vladislav</p>
+      <a href="#top" class="btn secondary">Back to top</a>
+    </div>
+  </footer>
+</body>
+</html>
